@@ -29,7 +29,8 @@ const Header = withStyles(styles)(
               <Tabs value={this.props.value} onChange={this.props.onTabChange} centered>
                 <Tab label="Home" />
                 <Tab label="Teachers" />
-                <Tab label="Students" />
+                <Tab label="Managers" />
+                <Tab label="Payments" />
               </Tabs>
             </Toolbar>
           </AppBar>
